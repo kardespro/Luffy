@@ -22,7 +22,7 @@ export default function Navbar(){
       {/*Mobile Navbar*/}
       <div className="smhidden grid grid-cols-4 gap-4 bg-gray-10 shadow-md rounded-md grid_1">
         <a className="pl-10 font-bold pt-6 text-xl md:pl-12" onClick={() => router.push("/")}>Luf<span className="text-[#ff5757]">fy</span></a>
-        <div className="pt-4 pl-40 pr-6 md:pl-64 md:ml-64 ">
+        <div className="pt-4 pl-40 pr-6 md:pl-80 md:ml-64 ">
           {user ? (
  
 
