@@ -36,8 +36,8 @@ export default function Hero(){
                       </Link>
                     )
                   ) : (
-                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-400 bg-indigo-200 bg-opacity-10 hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10">
-                      <MoonLoader color="#ff5757" />
+                    <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-gray-300 rounded-md w-64  hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10">
+                      <MoonLoader color="#ff5757" size={20} />
                     </a>
                   )}
                 </div>
