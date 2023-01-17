@@ -12,15 +12,15 @@ export default function Hero(){
       <h1 className="text-gray-900 font-bold text-3xl text-center">Luf<span className="text-[#ff5757]">fy</span></h1>
       <p className="text-xs text-center text-gray-400 font-bold">Özellikleri ile Seninle !</p>
 
-<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
+<div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start pl-20 md:pl-0">
+                <div className="rounded-md grid_1">
                   <Link href="/invite">
                     <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-gray-300 rounded-md w-64 text-gray-900 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
                         Davet Et
                     </a>
                   </Link>
                 </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
+                <div className="mt-3 sm:mt-0 sm:ml-3 grid_1">
                   {identify ? (
                     user ? (
                       <Link href="/dashboard">
@@ -30,7 +30,7 @@ export default function Hero(){
                       </Link>
                     ) : (
                       <Link href={"/api/auth/login?url=" + router.asPath}>
-                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900 hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10">
+                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900 hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10 sm:pl-44">
                             Giriş Yap
                         </a>
                       </Link>
