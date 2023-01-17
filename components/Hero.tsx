@@ -24,13 +24,13 @@ export default function Hero(){
                   {identify ? (
                     user ? (
                       <Link href="/dashboard">
-                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900  hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10">
+                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900  hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10 text-white">
                             Dashboard
                         </a>
                       </Link>
                     ) : (
                       <Link href={"/api/auth/login?url=" + router.asPath}>
-                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900 hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10 sm:pl-44">
+                        <a className="w-full flex items-center justify-center px-8 py-3 px-5 bg-[#ff5757] rounded-md w-64 text-gray-900 hover:text-white transition-all hover:bg-opacity-100 hover:bg-indigo-600 md:py-4 md:text-lg md:px-10 sm:pl-44 text-white">
                             Giriş Yap
                         </a>
                       </Link>
