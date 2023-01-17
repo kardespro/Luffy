@@ -113,7 +113,7 @@ export default function Navbar(){
       
 
         
-      ) :  <button className="py-3 w-32 px-5 rounded-md shadow-md text-center pl-6 bg-[#ff5757] font-semibold font-sans text-white" onClick={() => router.push("/api/auth/login")}>Login</button>}
+      ) :  <button className="py-3 w-32 px-5 rounded-md shadow-md text-center pl-6 bg-[#ff5757] font-semibold font-sans text-white" onClick={() => router.push("/api/auth/login")}>Giriş Yap</button>}
           <div className="pt-2"></div>
      
         </div>
